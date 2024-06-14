@@ -101,10 +101,11 @@
 		"yarn": "^1.22.19"
 	},
 	"devDependencies": {
-		"@types/chai": "4.2.22",
-		"@types/mocha": "^9.0.0",
+		"@types/chai": "^4.2.22",
+		"@types/glob": "^8.1.0",
+		"@types/mocha": "^9.1.1",
 		"@types/node": "16.11.7",
-		"@types/rimraf": "3.0.2",
+		"@types/rimraf": "^3.0.2",
 		"@types/vscode": "1.62.0",
 		"copy-webpack-plugin": "9.0.1",
 		"webpack": "5.63.0",
