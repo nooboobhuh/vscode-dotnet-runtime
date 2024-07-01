@@ -25,6 +25,7 @@ export * from './Utils/ExtensionConfigurationWorker';
 export * from './Utils/FileUtilities';
 export * from './Utils/ICommandExecutor';
 export * from './Utils/IFileUtilities';
+export * from './Utils/InstallKeyUtilities';
 export * from './Utils/IIssueContext';
 export * from './Utils/IssueReporter';
 export * from './Utils/IVSCodeEnvironment';
@@ -34,7 +35,7 @@ export * from './Utils/WebRequestWorker';
 export * from './Acquisition/DotnetCoreAcquisitionWorker';
 export * from './Acquisition/DotnetInstall';
 export * from './Acquisition/IAcquisitionWorkerContext';
-export * from './Acquisition/GetDirectoryPerMode';
+export * from './Acquisition/DirectoryProviderFactory';
 export * from './Acquisition/InstallRecord';
 export * from './Acquisition/AcquisitionInvoker';
 export * from './Acquisition/DotnetCoreDependencyInstaller'
